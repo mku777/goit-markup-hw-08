@@ -1,5 +1,4 @@
 
-
 .features__list {
   
   @media screen and (min-width: 768px) {
@@ -48,15 +47,12 @@
     letter-spacing: 0.03em;
     color:#757575;
     margin-bottom: 30px;
-    
+  
     @media screen and (min-width: 1200px) {
     margin-bottom: 0;}
   }
 
-  .features__list-text--margin {
-    @media screen and (min-width: 768px) {
-      margin-bottom: 0;  }
-  }
+ 
 
   .features__svg {
     display: inline-flex;
@@ -77,3 +73,4 @@
       
     }
 }
+
