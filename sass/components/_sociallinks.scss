@@ -1,11 +1,11 @@
-.social__list {
+.social {
     display: block;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .social__list .social__item+.social__item {
+  .social .social__item+.social__item {
     margin-left: 10px;
   }
   
@@ -47,7 +47,7 @@
     fill: currentColor;
   }
   
-  .social__link-footer {
+  .social__link--dark {
     display: flex;
     justify-content: center;
     align-items: center;
