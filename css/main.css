@@ -1003,9 +1003,11 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
-@media screen and (max-width: 1999px) {
+@media screen and (min-width: 480px) {
   .footer__button {
-    display: inline-block;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1200px) {
