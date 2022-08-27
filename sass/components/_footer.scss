@@ -26,9 +26,7 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    @media screen and (min-width:1200) {
-      flex-wrap: nowrap;
-    }
+
   }
   
   
@@ -89,7 +87,7 @@
       margin-top: 0;
       margin-left: 165px;
 
-      @media screen and (min-width: 1200px) {
+      @media screen and (max-width: 1199px) {
         margin-left: 70px;
         align-items: center;
         justify-content: center;
@@ -142,6 +140,7 @@
       outline: 1px solid rgba(255, 255, 255, 0.3)
     }
     @media screen and (min-width: 1200px) {
+      width: 358px;
       margin-left: 93px;
       margin-bottom: 0px;
     }
@@ -149,10 +148,9 @@
 
   
   .footer__button {
-  display: inline-block;
+  
     align-items: center;
     text-align: center;
-    justify-content: center;
   
     font-weight: 700;
     font-size: 16px;
@@ -167,6 +165,13 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 28px;
+
+    @media screen and (max-width: 1999px) {
+      display: inline-block;
+    }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
