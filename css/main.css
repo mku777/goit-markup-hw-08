@@ -958,7 +958,6 @@ a {
 @media screen and (min-width: 1200px) {
   .footer__mail {
     width: 358px;
-    margin-left: 93px;
     margin-bottom: 0px;
   }
 }
