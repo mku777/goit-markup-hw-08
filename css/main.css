@@ -900,6 +900,11 @@ a {
     margin-top: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer__title {
+    margin-top: 11.6px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .footer__join {
@@ -909,6 +914,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .footer__join {
+    margin-bottom: 11.6px;
     margin-left: 70px;
   }
 }
@@ -926,7 +932,8 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .footer__title-mail {
-    margin-top: 0;
+    margin-top: 11.6px;
+    margin-bottom: 20px;
   }
 }
 
@@ -957,6 +964,21 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .footer__mail {
+    width: 358px;
+    height: 50px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-right: 12px;
+    padding: 15px 16px;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-bg-color);
     width: 358px;
     margin-bottom: 0px;
   }
@@ -989,6 +1011,8 @@ a {
 @media screen and (min-width: 1200px) {
   .footer__button {
     display: flex;
+    align-items: center;
+    text-align: center;
   }
 }
 .footer__button:hover, .footer__button:focus {
@@ -1004,6 +1028,19 @@ a {
 
 @media screen and (width: 1200px) {
   .footer__logo-adress {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__subscribe-section {
+    display: inline;
+    margin-left: 93px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__form {
     display: flex;
   }
 }
