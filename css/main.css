@@ -850,7 +850,6 @@ a {
 @media screen and (min-width: 1200px) {
   .footer__container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -958,7 +957,7 @@ a {
 }
 
 .footer__button {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   text-align: center;
   justify-content: center;
