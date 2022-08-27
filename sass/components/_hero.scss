@@ -1,6 +1,6 @@
 .overlay {
   max-width: 1600px;
-  height: 600px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to right,
@@ -10,6 +10,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media screen and (min-width:1200px){
+    height: 600px;
+  }
 }
 
 .hero {
@@ -17,30 +21,39 @@
   text-align: center;
   background-color: #2f303a;
   margin: auto;
+  text-align: center;
 }
 
 
 .hero__title {
   margin-top: 0;
   margin-bottom: 30px;
+  padding-top: 118px;
   color: var(--primary-bg-color);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
+
+  @media screen and (min-width:1200px) {
+    padding-top:200px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
+  
 }
 
 .hero__button {
   text-align: center;
   border-radius: 4px;
   border: 0;
-  padding: 10px 32px;
+  padding: 10px 24px;
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
   height: 50px;
@@ -48,4 +61,8 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media (min-width: 1200px) {
+    padding: 10px 32px;
+  }
 }
