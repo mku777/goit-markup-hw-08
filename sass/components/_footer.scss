@@ -1,8 +1,9 @@
   .footer {
-  
+
     background-color: var(--secondary-bg-color);
     padding-top: 60px;
     padding-bottom: 60px;
+    
    
     @media screen and (max-width: 1199px) {
     display: flex;
@@ -11,16 +12,11 @@
 
     text-align: center;
   }
-    @media screen and (max-width: 1199px) {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      text-align: center;
-        }
-        
       }
     
     .footer__container {
+        margin-left: auto;
+     margin-right: auto;
       @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
@@ -83,18 +79,15 @@
 
   .footer__join {
     @media screen and (min-width: 768px) {
-      display: inline-block;
       margin-top: 0;
       margin-left: 165px;
-
-      @media screen and (max-width: 1199px) {
+    }
+      @media screen and (min-width: 1200px) {
         margin-left: 70px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+
       }
     }
-  }
+  
 
   .footer__title-mail {
     
