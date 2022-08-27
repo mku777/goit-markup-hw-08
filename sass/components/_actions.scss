@@ -1,5 +1,10 @@
 .actions {
     padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    text-align: center;
 
       @media screen and (max-width: 1199px) {
         display: none;

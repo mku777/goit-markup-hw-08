@@ -1,3 +1,11 @@
+.client {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  text-align: center;
+}
+
 .client__title {
   margin-top: 0;
   margin-bottom: 30px;
