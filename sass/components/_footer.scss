@@ -4,14 +4,14 @@
     padding-top: 60px;
     padding-bottom: 60px;
    
-    @media screen and (min-width:480px) {
+    @media screen and (max-width: 1199px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
     text-align: center;
   }
-    @media screen and (min-width: 768px) {
+    @media screen and (max-width: 1199px) {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
