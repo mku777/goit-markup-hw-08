@@ -32,8 +32,11 @@
     margin-bottom: 30px;
     
     @media screen and (min-width: 768px) {
-      margin-bottom: 0;
-    width: calc((100% - 30px) / 2);
+      display: flex;
+      flex-wrap: wrap;
+      width: 354px;
+      margin: 0;
+      
     @media screen and (min-width:1200px) {
     width: 270px;
   }
@@ -79,8 +82,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 450px;
     height: 120px;
+    width: 100%;
     border: 0;
     border-radius: 4px;
     background-color: var(--secondary-section-color);
