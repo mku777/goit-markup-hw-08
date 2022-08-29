@@ -1,3 +1,19 @@
+.hero {
+  box-sizing: content-box;
+  text-align: center;
+  background-color: #2f303a;
+  margin: auto;
+  text-align: center;
+  }
+
+  .hero__container {
+    padding-top: 118px;
+    padding-bottom: 118px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+
 
 .overlay {
   max-width: 1600px;
@@ -48,19 +64,11 @@
   }
 
 
-.hero {
-  box-sizing: content-box;
-  text-align: center;
-  background-color: #2f303a;
-  margin: auto;
-  text-align: center;
-}
-
 
 .hero__title {
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 118px;
+  
   color: var(--primary-bg-color);
   font-weight: 900;
   font-size: 26px;
