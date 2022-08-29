@@ -341,7 +341,6 @@ textarea {
 
 .modal__input {
   display: block;
-  width: 370px;
   height: 40px;
   margin-bottom: 10px;
   padding: 12px 40px;
@@ -352,6 +351,12 @@ textarea {
   letter-spacing: 0.01em;
   color: var(--primary-text-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (max-width: 1199px) {
+  .modal__input {
+    width: 100%;
+    max-width: 370px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal__input {
@@ -394,7 +399,6 @@ textarea {
 }
 
 .modal__comment {
-  width: 370px;
   height: 120px;
   padding: 12px 16px;
   resize: none;
@@ -402,6 +406,12 @@ textarea {
   border-radius: 4px;
   margin-bottom: 20px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (max-width: 1199px) {
+  .modal__comment {
+    width: 100%;
+    max-width: 370px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal__comment {
