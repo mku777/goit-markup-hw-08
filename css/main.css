@@ -1378,6 +1378,7 @@ a {
   padding: 48px 40px;
   transform: translateY(-100%);
   background-color: var(--primary-bg-color);
+  z-index: 999;
 }
 
 .menu-container.is-open {
