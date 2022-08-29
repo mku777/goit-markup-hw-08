@@ -39,7 +39,6 @@
   .team__item {
     max-width: 100%;
     margin: auto auto;
-    margin-bottom: 30px;
     border-radius: 0px 0px 4px 4px;
     background-color: var(--primary-bg-color);
     border-radius: 0px 0px 4px 4px;
@@ -58,6 +57,13 @@
         justify-content: center;
         width: 270px;
       }
+    }
+
+    .team__item:last-child{
+      @media screen and (max-width:767px) {
+        margin-bottom: 0;
+      }
+      
     }
       
     
