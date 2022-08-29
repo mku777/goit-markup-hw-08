@@ -2,12 +2,14 @@
     border-bottom: 1px solid #ececec;
     display: flex;
     justify-content: space-between;
+    @media screen and (min-width:768px) {
+      justify-content: space-between;
+    }
   }
 
   .header__page {
     display: flex;
-    justify-content: space-between;
-  
+
   }
   
   
@@ -23,7 +25,7 @@
   
   .site-navigation {
     display: none;
-    margin-left: 93px;
+    margin-left: 87px;
     padding-top: 32px;
     padding-bottom: 32px;
     &__item:not( :last-child) {
@@ -79,19 +81,21 @@
   
   .auth-nav {
     display: none;
-    margin-left: auto;
-    align-items: center;
-    justify-content: center;
-
+ 
     @media screen and (min-width: 768px){
-    }
-    }
-  
-  
-  .auth-nav .auth-nav__item+.auth-nav__item {
-    margin-left: 30px;
+      display: inline-block;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-left: 80px;
+   
+    
   }
-  
+    }
+
+
+      
+
   .auth-nav__link {
     color: var(--primary-text-color);
     font-weight: 500;
