@@ -1077,7 +1077,8 @@ a {
 }
 
 .footer__mail {
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
   height: 50px;
   border: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1172,6 +1173,9 @@ a {
   }
 }
 
+.footer__subscribe-section {
+  width: 450px;
+}
 @media screen and (min-width: 1200px) {
   .footer__subscribe-section {
     display: inline;
