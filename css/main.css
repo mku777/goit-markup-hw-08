@@ -1174,7 +1174,8 @@ a {
 }
 
 .footer__subscribe-section {
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
 }
 @media screen and (min-width: 1200px) {
   .footer__subscribe-section {
