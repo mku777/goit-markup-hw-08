@@ -4,7 +4,6 @@
   flex-wrap: wrap;
   justify-content: center;
 
-  text-align: center;
 }
 
 .projects__list {
@@ -26,6 +25,7 @@
 }
 
 .projects__item {
+
   max-width: 450px;
   width: 100%;
   &:nth-last-child(-n + 3) {
@@ -68,6 +68,7 @@
 }
 
 .projects-description {
+  
   position: absolute;
   flex-grow: 1;
   display: flex;
@@ -87,6 +88,7 @@
 }
 
 .projects-description__text {
+  
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
