@@ -32,6 +32,10 @@
     }
   }
 
+  .features__list-item:last-child {
+    margin-bottom: 0;
+  }
+
   
   .features__list-title {
     margin :0 0;
