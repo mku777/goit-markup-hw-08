@@ -1,5 +1,7 @@
 .section.features {
-  padding-bottom: 47px;
+  @media screen and (min-width:1200px) {
+    padding-bottom: 47px;
+  }
 }
 
 .features {

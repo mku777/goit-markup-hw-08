@@ -605,8 +605,10 @@ a {
   }
 }
 
-.section.features {
-  padding-bottom: 47px;
+@media screen and (min-width: 1200px) {
+  .section.features {
+    padding-bottom: 47px;
+  }
 }
 
 .features {
@@ -1074,7 +1076,6 @@ a {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0);
-  margin-right: 12px;
   padding: 15px 16px;
   font-size: 16px;
   line-height: 1.25;
