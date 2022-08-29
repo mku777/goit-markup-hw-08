@@ -1,5 +1,6 @@
 .header {
   border-bottom: 1px solid #ececec;
+
   @media screen and (min-width:768px) {
     display: flex;
     margin-left: auto;
@@ -15,9 +16,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @media screen and (max-width: 767px){
-  height: 60px
-}
+
+  @media screen and (max-width: 767px) {
+    height: 60px
+  }
 }
 
 
@@ -99,7 +101,7 @@
     justify-content: center;
     gap: 10px;
     margin-left: auto;
-    
+
   }
 
   @media screen and (min-width: 1200px) {
@@ -118,7 +120,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
- 
+
 
   transition-property: color;
   transition-duration: 250ms;
