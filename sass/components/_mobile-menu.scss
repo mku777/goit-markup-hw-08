@@ -76,8 +76,15 @@ color: #212121;
     color:#2196f3;
 }
 
-.mobile-contact__item {
-    margin-bottom: 64px;
+.mobile-contact {
+        margin-bottom: 64px;
+    }
+
+    .mobile-contact__item{
+        margin-bottom: 32px;
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .mobile-contact__link {

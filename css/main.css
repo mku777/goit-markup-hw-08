@@ -1499,8 +1499,15 @@ a {
   color: #2196f3;
 }
 
-.mobile-contact__item {
+.mobile-contact {
   margin-bottom: 64px;
+}
+
+.mobile-contact__item {
+  margin-bottom: 32px;
+}
+.mobile-contact__item:last-child {
+  margin-bottom: 0;
 }
 
 .mobile-contact__link {
