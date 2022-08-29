@@ -16,20 +16,20 @@
 
 <body>
   <!--Шапка сайта-->
-  <header>
+  <header class="header">
     <div class="container header__page">
       <nav class="navigation">
         <a href="" class="logo"><span class="logo--accent">Web</span>Studio</a>
         <ul class="site-navigation">
           <li class="site-navigation__item"><a href="./index.html" 
-            class="site-navigation__link">Студія</a></li>
+            class="site-navigation__link site-navigation__link--active">Студія</a></li>
 
-          <li class="site-navigation__item"><a href="./portfolio.html" class="site-navigation__link site-navigation__link--active">Портфоліо</a></li>
-          
+          <li class="site-navigation__item"><a href="./portfolio.html" class="site-navigation__link">Портфоліо</a></li>
+
           <li class="site-navigation__item"><a href="" class="site-navigation__link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="auth-nav">
+     <ul class="auth-nav">
         <li class="auth-nav__item">
           <a href="mailto:info@devstudio.com" class="auth-nav__link">
             <svg class="auth-nav__icon" width="16" height="12">
@@ -46,7 +46,88 @@
             +38 096 111 11 11</a>
         </li>
       </ul>
-    </div>
+    
+    <div class="mob-menu">
+      <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg width="40" height="40"><use href="./images/icons.svg#menu"></use></svg>
+      </button>
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#cross"></use>
+          </svg>
+        </button>
+        <div class="mobile">
+          <ul class="mobile-menu">
+            <li class="mobile-menu__item">
+              <a href="./index.html" class="link link--active">Студія</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="./portfolio.html" class="link">Портфоліо</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="./contact.html" class="link">Контакти</a>
+            </li>
+          </ul>
+          <div>
+            <ul class="mobile-contact">
+              <li class="mobile-contact__item mobile-contact__item--blue">
+                <a href="tel:+380961111111" class="mobile-contact__link--blue">+38 096 111 11 11</a>
+              </li>
+              <li class="mobile-contact__item">
+                <a href="mailto:info@devstudio.com" class="mobile-contact__link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-social">
+              <li class="mobile-social__item">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  aria-label="Інстаграм"
+                  rel="noopener noreferrer nofollow"
+                  class="mobile-social__link"
+                  >Instagram</a
+                >
+              </li>
+              <li class="mobile-social__item">
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  aria-label="Твітер"
+                  rel="noopener noreferrer nofollow"
+                  class="mobile-social__link"
+                  >Twitter</a
+                >
+              </li>
+              <li class="mobile-social__item">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  aria-label="Фейсбук"
+                  rel="noopener noreferrer nofollow"
+                  class="mobile-social__link"
+                  >Facebook</a
+                >
+              </li>
+              <li class="mobile-social__item">
+                <a
+                  href="https://ua.linkedin.com/"
+                  target="_blank"
+                  aria-label="Лінкедін"
+                  rel="noopener noreferrer nofollow"
+                  class="mobile-social__link"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
   </header>
   <!--Главное окно-->
   <main>

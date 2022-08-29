@@ -1,15 +1,17 @@
 .project-buttons__list {
     display: flex;
     flex-wrap: wrap;
-    
+    padding-top: 66px;
     gap: 8px 15px;
     margin-bottom: 30px;
     
     @media screen and (min-width:768px) {
+
       margin-bottom: 40px;
       justify-content: center;
     }
     @media screen and (min-width:1200px) {
+      padding-top: 94px;
       margin-bottom: 50px;
       justify-content: center;
     }

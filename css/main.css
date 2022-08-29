@@ -1159,6 +1159,7 @@ a {
 .project-buttons__list {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 66px;
   gap: 8px 15px;
   margin-bottom: 30px;
 }
@@ -1170,6 +1171,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .project-buttons__list {
+    padding-top: 94px;
     margin-bottom: 50px;
     justify-content: center;
   }
