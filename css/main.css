@@ -59,8 +59,8 @@ ul {
   max-width: 480px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -87,7 +87,14 @@ img {
 }
 @media screen and (min-width: 768px) {
   .header {
-    justify-content: space-between;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    display: flex;
   }
 }
 
@@ -156,9 +163,18 @@ img {
 @media screen and (min-width: 768px) {
   .auth-nav {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 96px;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .auth-nav {
+    flex-direction: row;
+    margin-right: auto;
     align-items: center;
-    margin-left: 80px;
   }
 }
 
@@ -171,10 +187,15 @@ img {
   text-decoration: none;
   display: flex;
   align-items: center;
-  justify-content: center;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1200px) {
+  .auth-nav__link {
+    margin-right: 30px;
+    justify-content: center;
+  }
 }
 .auth-nav__link:hover, .auth-nav__link:focus {
   color: var(--accent-color);
@@ -1239,6 +1260,8 @@ a {
 }
 
 .projecst__link {
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
 }
 
@@ -1279,6 +1302,7 @@ a {
 }
 
 .projects-name {
+  flex-grow: 1;
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;

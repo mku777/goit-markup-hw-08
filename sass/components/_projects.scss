@@ -25,7 +25,7 @@
 }
 
 .projects__item {
-
+ 
   max-width: 450px;
   width: 100%;
   &:nth-last-child(-n + 3) {
@@ -58,6 +58,8 @@
 }
 
 .projecst__link {
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
 }
 
@@ -102,6 +104,7 @@
 }
 
 .projects-name {
+  flex-grow: 1;
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
