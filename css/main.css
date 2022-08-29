@@ -1167,6 +1167,7 @@ a {
 
 .projects__list {
   display: flex;
+  height: 100%;
   flex-wrap: wrap;
   gap: 30px;
 }
@@ -1227,6 +1228,7 @@ a {
 
 .projects-description {
   position: absolute;
+  flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
