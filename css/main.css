@@ -57,6 +57,7 @@ ul {
 
 .container {
   max-width: 480px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -82,8 +83,6 @@ img {
 
 .header {
   border-bottom: 1px solid #ececec;
-  display: flex;
-  justify-content: space-between;
 }
 @media screen and (min-width: 768px) {
   .header {
@@ -100,6 +99,7 @@ img {
 
 .header__page {
   display: flex;
+  justify-content: space-between;
 }
 
 .navigation {
@@ -166,14 +166,12 @@ img {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    margin-left: 96px;
-    margin-right: auto;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .auth-nav {
     flex-direction: row;
-    margin-right: auto;
     align-items: center;
   }
 }

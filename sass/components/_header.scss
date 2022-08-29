@@ -1,8 +1,5 @@
 .header {
   border-bottom: 1px solid #ececec;
-  display: flex;
-  justify-content: space-between;
-
   @media screen and (min-width:768px) {
     display: flex;
     margin-left: auto;
@@ -16,6 +13,7 @@
 
 .header__page {
   display: flex;
+  justify-content: space-between;
 }
 
 
@@ -96,14 +94,12 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    margin-left: auto;
     
-    margin-left: 96px;
-    margin-right: auto;
   }
 
   @media screen and (min-width: 1200px) {
     flex-direction: row;
-    margin-right: auto;
     align-items: center;
   }
 }
