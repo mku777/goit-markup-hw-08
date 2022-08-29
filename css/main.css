@@ -636,6 +636,7 @@ a {
 }
 @media screen and (min-width: 768px) {
   .features__list-item {
+    margin-bottom: 0;
     width: calc((100% - 30px) / 2);
   }
 }
@@ -667,8 +668,6 @@ a {
 .features__list-text {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
