@@ -217,8 +217,10 @@
   }
 
   .footer__subscribe-section {
-    width: 100%;
-    max-width: 450px;
+    @media screen and (min-width:768px) {
+      width: 450px;
+    }
+
     @media screen and (min-width:1200px) {
       display: inline;
     margin-left: 93px;
