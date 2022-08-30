@@ -100,15 +100,14 @@
 }
 
 .mobile-contact__link--blue {
+    color: #2196F3; 
     line-height: 1.17;
-letter-spacing: 0.02em;
-color: #2196F3; 
-font-weight: 500;
-
+    letter-spacing: 0.02em;
+    font-weight: 500;
 @media screen and (min-width: 320px) {
-font-size: 20px;
+font-size: 24px;
 }
-    @media screen and  (min-width: 480px) {
+@media screen and  (min-width: 480px) {
     font-size: 34px;
     }
 }
