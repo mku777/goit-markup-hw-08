@@ -1418,6 +1418,11 @@ a {
   letter-spacing: 0.03em;
   color: var(--primary-bg-color);
 }
+@media screen and (min-width: 350px) {
+  .projects-description__text {
+    font-size: 14px;
+  }
+}
 
 .projects__image {
   display: block;

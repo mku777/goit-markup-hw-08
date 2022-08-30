@@ -102,6 +102,10 @@
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: var(--primary-bg-color);
+
+  @media screen and(min-width:350px) {
+  font-size: 14px;
+  }
 }
 
 
