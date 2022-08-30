@@ -121,7 +121,7 @@
     }
 }
 
-.mobile-social__item::after {
+.mobile-social__item:not(:last-child)::after  {
     content: "";
     position: absolute;
     border: 1px solid;
@@ -129,6 +129,10 @@
     color: rgba(33, 33, 33, 0.2);
     margin-left: 10px;
 }
+
+
+
+
 
 
 .mobile-social__link {

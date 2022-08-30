@@ -1276,7 +1276,6 @@ a {
 .project-buttons__list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 66px;
   gap: 15px 8px;
   margin-bottom: 40px;
 }
@@ -1293,7 +1292,6 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .project-buttons__list {
-    padding-top: 94px;
     margin-bottom: 50px;
     justify-content: center;
   }
@@ -1324,7 +1322,6 @@ a {
 }
 
 .work {
-  padding-top: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1574,7 +1571,7 @@ a {
   margin-right: 0;
 }
 
-.mobile-social__item::after {
+.mobile-social__item:not(:last-child)::after {
   content: "";
   position: absolute;
   border: 1px solid;
