@@ -1551,12 +1551,23 @@ a {
   color: #757575;
 }
 
-.mobile-contact__link--blue {
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: #2196F3;
+@media screen and (min-width: 320px) {
+  .mobile-contact__link--blue {
+    font-size: 20px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 480px) {
+  .mobile-contact__link--blue {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+  }
 }
 
 .mobile-social {
