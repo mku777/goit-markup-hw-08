@@ -1418,7 +1418,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--primary-bg-color);
 }
-@media screen and (min-width: 350px) {
+@media screen and (max-width: 479px) {
   .projects-description__text {
     font-size: 14px;
   }
