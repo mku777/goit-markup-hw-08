@@ -110,6 +110,7 @@
 .mobile-social {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .mobile-social__item {
